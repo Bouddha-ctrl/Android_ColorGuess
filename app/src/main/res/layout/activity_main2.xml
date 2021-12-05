@@ -41,7 +41,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="primary colors"
+                android:text="Primary Colors"
                 android:textColor="#0A71E1"
                 android:textSize="20dp"
                 android:textStyle="bold"
@@ -132,7 +132,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="examples"
+                android:text="Examples"
                 android:textColor="#0A71E1"
                 android:textSize="20dp"
                 android:textStyle="bold"

@@ -28,17 +28,20 @@ public class MainActivity3 extends AppCompatActivity {
                 switch (item.getItemId()){
                     case R.id.page_1:
                         intent = new Intent(MainActivity3.this, MainActivity2.class);
-
+                        startActivity(intent);
+                        overridePendingTransition(R.anim.slide_in_left,R.anim.slide_out_right);
                         break;
                     case R.id.page_2:
 
                         return true;
                     case R.id.page_3:
                         intent = new Intent(MainActivity3.this, MainActivity.class);
-
+                        startActivity(intent);
+                        overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
                         break;
                 }
-                startActivity(intent);
+
+
                 finish();
                 return true;
             }

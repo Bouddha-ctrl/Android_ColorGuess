@@ -43,6 +43,7 @@ public class MainActivity2 extends AppCompatActivity {
                         break;
                 }
                 startActivity(intent);
+                overridePendingTransition(R.anim.slide_in_right,R.anim.slide_out_left);
                 finish();
                 return true;
             }
